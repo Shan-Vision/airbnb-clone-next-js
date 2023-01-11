@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Footer = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 px-32 py-14 bg-gray-100 tex-gray-600">

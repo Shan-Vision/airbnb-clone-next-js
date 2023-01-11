@@ -1,8 +1,5 @@
-import React from 'react'
 import MediumCard from '../components/MediumCard';
-import { cardsData } from '../service/exploreData.js';
-
-
+import { cardsData } from '../service/data';
 
 const Apartments = () => {
   return (
@@ -16,6 +13,6 @@ const Apartments = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Apartments
+export default Apartments;

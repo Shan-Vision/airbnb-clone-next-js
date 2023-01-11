@@ -1,6 +1,5 @@
-import React from 'react';
 import SmallCard from './SmallCard';
-import { exploreData } from '../service/exploreData.js';
+import { exploreData } from '../service/data';
 
 const Explore = () => {
   return (

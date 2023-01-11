@@ -1,8 +1,8 @@
-import { createApi } from 'unsplash-js';
+// import { createApi } from 'unsplash-js';
 
-export const unsplash = createApi({
-  accessKey: '8_Q3LsZOlrP6DEhUo7sRyzS4fJqq8xqQwm5XieHHm3s',
-});
+// export const unsplash = createApi({
+//   accessKey: '8_Q3LsZOlrP6DEhUo7sRyzS4fJqq8xqQwm5XieHHm3s',
+// });
 
 
   // const [image, setImage] = useState('');

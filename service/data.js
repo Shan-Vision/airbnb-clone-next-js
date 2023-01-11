@@ -6,8 +6,9 @@ function importAll(r) {
   return images;
 }
 
-export const images = importAll(require.context('../images', false, /\.(webp)$/));
-
+export const images = importAll(
+  require.context('../images', false, /\.(webp)$/)
+);
 
 export const exploreData = [
   {
