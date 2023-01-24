@@ -1,7 +1,6 @@
 import SmallCard from './SmallCard';
-import { exploreData } from '../service/data';
 
-const Explore = () => {
+const Explore = ({ exploreData }) => {
   return (
     <section className="pt-6">
       <h2 className="text-4xl font-semibold pb-5 ">Expore Nearby</h2>

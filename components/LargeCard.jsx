@@ -2,14 +2,15 @@ import Image from 'next/image';
 
 const LargeCard = ({ img, title, description, buttonText }) => {
   return (
-    <section className=" border-solid border-2 border-indigo-600  relative py-16 cursor-pointer ">
+    <section className="relative py-16 cursor-pointer ">
       <div className="relative h-96 min-w-[300px] rounded-xl">
         <Image
-          className="rounded-2xl"
-          src={img}
+          className="rounded-2xl object-cover"
+          src={
+            'https://a0.muscache.com/im/pictures/2da67c1c-0c61-4629-8798-1d4de1ac9291.jpg?im_w=1440'
+          }
           alt="large"
           fill
-          style={{ objectFit: 'cover' }}
           priority
         />
       </div>
